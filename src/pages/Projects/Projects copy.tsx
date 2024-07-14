@@ -23,7 +23,7 @@ export const Projects = () => {
   const [isCreateProject, setIsCreateProject] = useState(false)
 
   const [page, setPage] = useState(1)
-
+  const refetch = ()=> console.log()
   // const { data, refetch, isLoading } = useCustom({
   //   url: userData?.is_superuser ? `${API_URL}/project/get_projects` : `${API_URL}/project/by_user/${JSON.parse(localUserId as string)}`,
   //   method: 'get',
