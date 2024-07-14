@@ -28,7 +28,7 @@ export const Projects = () => {
   //   url: userData?.is_superuser ? `${API_URL}/project/get_projects` : `${API_URL}/project/by_user/${JSON.parse(localUserId as string)}`,
   //   method: 'get',
   // })
-  const data = {data:{}};
+  const data = {data:[ ]};
   let isLoading = false;
   // const isCanCreateProject = data?.data
   //   ?  userData?.is_superuser || userData?.is_project_manager

@@ -189,7 +189,7 @@ const refetch = ()=> console.log();
     }
   ]
 
-  const statusesData = dataStatuses?.data ? [] : []
+  const statusesData =   [];
 
   return (
     <section>
