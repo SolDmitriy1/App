@@ -41,6 +41,7 @@ export const Login = () => {
   const isFilledData = emailRegex.test(email) && password
 
   const handleLogin =  () => {
+    localStorage.setItem('token', '123123213131313')
     if (isFilledData) {
 
       const formData = new FormData();
