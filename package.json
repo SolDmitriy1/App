@@ -48,8 +48,8 @@
     "vite": "^4.3.1"
   },
   "scripts": {
-    "predevploy": "npm run build",
-    "devploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "refine dev",
     "build": "tsc && refine build",
     "preview": "refine start",
